@@ -1,0 +1,35 @@
+Define Queue?
+
+Queuing Theory is a branch of operations research which is used to predict the length of queues and waiting times in order to decide the amount of resources required to provide any service.
+
+As per Little’s Theorem the average number of customers (N) that arrive can be determined form the equation:
+
+N = λ T , where λ is the customer arrival rate and T is the average service time for a customer.
+
+The queuing system can be classified as per the following convention:
+
+A/S/n – A is the arrival process, S is the service process and n is the number of servers.
+
+Examples of Queuing Systems are:
+
+M/M/1 – This is the simplest type with only 1 server and the arrival and service times are exponentially distributed (Poisson Process). Eg: Arrival of telephone calls to a telephone exchange.
+M/D/n – Here there are n servers, the arrival process follows Poisson distribution whereas the service time is deterministic and can be assumed to be fixed for all customers. Eg: Ticket booking counters in a railway station.
+G/G/n – This system has n servers but the arrival and service times are both arbitrary.
+M = Markovian or exponentially distributed
+
+D = Deterministic or constant
+
+G = General or Binomial Distribution
+
+Hence, this concludes the definition of Queuing Theory or Waiting Line Theory along with its overview.
+
+
+Queuing Theory?
+Queuing theory is the study of queues and the random processes that characterize them. It deals with making mathematical sense of real-life scenarios. For example, a mob of people queuing up at a bank or the tasks queuing up on your computer’s back end.
+In queuing theory we often want to find out how long wait times or queue lengths are, and we can use models to do this. These models are typically important in business and software applications, and queueing theory is often considered a part of operations research.
+
+Queuing theory is the mathematical study of the congestion and delays of waiting in line. Queuing theory (or "queueing theory") examines every component of waiting in line to be served, including the arrival process, service process, number of servers, number of system places, and the number of customers—which might be people, data packets, cars, etc.
+As a branch of operations research, queuing theory can help users make informed business decisions on how to build efficient and cost-effective workflow systems. Real-life applications of queuing theory cover a wide range of applications, such as how to provide faster customer service, improve traffic flow, efficiently ship orders from a warehouse, and design of telecommunications systems, from data networks to call centers.
+
+Queues happen when resources are limited. In fact, queues make economic sense; no queues would equate to costly overcapacity. Queuing theory helps in the design of balanced systems that serve customers quickly and efficiently but do not cost too much to be sustainable. All queuing systems are broken down into the entities queuing for an activity.
+At its most elementary level, queuing theory involves the analysis of arrivals at a facility, such as a bank or fast food restaurant, then the service requirements of that facility, e.g., tellers or attendants.

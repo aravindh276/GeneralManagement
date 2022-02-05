@@ -1,0 +1,53 @@
+What are the methods of studying correlation?
+The different methods of studying relationship between two variables are:
+1. Scatter diagram method.
+2. Graphic method
+3. Karl Pearson’s coefficient of correlation
+4. Rank correlation method
+
+1. Scatter Diagram Method: It is a graphical representation of finding relationship between two or more variables. Independent variable are taken on the x-axis and dependent variable on the y-axis and plot the various values of x and y on the graph. If all values move upwards then there is positive correlation, if they move downwards then there is negative correlation.
+
+Merits:
+i. It is easy and simple to use and understand.
+ii. Relation between two variables can be studied in a non-mathematical way.
+
+Demerits:
+i. It is non-mathematical method so the results are non-exact and accurate.
+ii. It gives only approximate idea of the relationship.
+
+2. Graphic Method: This is an extension of linear graphs. In this case two or more variables are plotted on graph paper. If the curves move in same direction the correlation is positive and if moves in opposite direction then correlation is negative. But if there is no definite direction, there is absence of correlation. Although it is a simple method, but this shows only rough estimate of nature of relationship.
+
+Merits:
+i.It is easy and simple to use.
+ii. Relation between two variables can be studied in a non-mathematical way.
+
+Demerits:
+i. It is non-mathematical method so the results are non-exact and accurate.
+ii. It gives only approximate idea of the relationship.
+
+3. Karl Pearson’s Coefficient of Correlation:  Correlation coefficient is a mathematical and most popular method of calculating correlation. Arithmetic mean and standard deviation are the basis for its calculation. The Correlation coefficient (r), also called as the linear correlation coefficient measures the strength and direction of a linear relationship between two variables. The value of r lies between -1 to 1.
+
+Properties of r:
+i. r is the independent to the unit of measurement of variable.
+ii. r does not depend on the change of origin and scale.
+iii. If two variables are independent to each other, then the value of r is zero.
+
+Merits:
+i. The co-efficient of correlation measures the degree of relationship between two variables.
+ii. It also measures the direction.
+iii. It may be used to determine regression coefficient provided s.d. of two variables are known.
+
+Demerits:
+i. It assumes always the linear relationship between the variables even if this assumption is not correct.
+ii. It is affected by extreme values.
+iii.  It takes a lot of time to compute.
+
+4. Spearman’s Rank Coefficient of Correlation: This is a qualitative method of measuring correlation co-efficient. Qualities such as beauty, honesty, ability, etc. cannot be measured in quantitative terms. So, ranks are used to determine the correlation coefficient.
+
+Merits:
+i. It is easy and simple to calculate and understand.
+ii. This method is most suitable if the data are qualitative.
+
+Demerits:
+i. This method cannot be used in case of grouped frequency distribution.
+ii. Where the number of items exceeds 30 the calculations become quite tedious and require a lot of time.

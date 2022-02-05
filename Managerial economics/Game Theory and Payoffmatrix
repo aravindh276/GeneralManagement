@@ -1,0 +1,170 @@
+Write a note on :
+(i) Game theory
+(ii) Pay off matrix
+
+Game theory
+What economists call game theory psychologists call the theory of social situations, which is an accurate description of what game theory is about. Although game theory is relevant to parlor games such as poker or bridge, most research in game theory focuses on how groups of people interact. There are two main branches of game theory: cooperative and noncooperative game theory. Noncooperative game theory deals largely with how intelligent individuals interact with one another in an effort to achieve their own goals. That is the branch of game theory I will discuss here.
+
+In addition to game theory, economic theory has three other main branches: decision theory, general equilibrium theory and mechanism design theory. All are closely connected to game theory.
+
+Decision theory can be viewed as a theory of one person games, or a game of a single player against nature. The focus is on preferences and the formation of beliefs. The most widely used form of decision theory argues that preferences among risky alternatives can be described by the maximization of the expected value of a numerical utility function, where utility may depend on a number of things, but in situations of interest to economists often depends on money income. Probability theory is heavily used in order to represent the uncertainty of outcomes, and Bayes Law is frequently used to model the way in which new information is used to revise beliefs. Decision theory is often used in the form of decision analysis, which shows how best to acquire information before making a decision.
+
+General equilibrium theory can be viewed as a specialized branch of game theory that deals with trade and production, and typically with a relatively large number of individual consumers and producers. It is widely used in the macroeconomic analysis of broad based economic policies such as monetary or tax policy, in finance to analyze stock markets, to study interest and exchange rates and other prices. In recent years, political economy has emerged as a combination of general equilibrium theory and game theory in which the private sector of the economy is modeled by general equilibrium theory, while voting behavior and the incentive of governments is analyzed using game theory. Issues studied include tax policy, trade policy, and the role of international trade agreements such as the European Union.
+
+Mechanism design theory differs from game theory in that game theory takes the rules of the game as given, while mechanism design theory asks about the consequences of different types of rules. Naturally this relies heavily on game theory. Questions addressed by mechanism design theory include the design of compensation and wage agreements that effectively spread risk while maintaining incentives, and the design of auctions to maximize revenue, or achieve other goals.
+
+An Instructive Example
+
+One way to describe a game is by listing the players (or individuals) participating in the game, and for each player, listing the alternative choices (called actions or strategies) available to that player. In the case of a two-player game, the actions of the first player form the rows, and the actions of the second player the columns, of a matrix. The entries in the matrix are two numbers representing the utility or payoff to the first and second player respectively. A very famous game is the Prisoner's Dilemma game. In this game the two players are partners in a crime who have been captured by the police. Each suspect is placed in a separate cell, and offered the opportunity to confess to the crime. The game can be represented by the following matrix of payoffs
+
+ 	not confess	confess
+not confess	5,5	-4,10
+confess	10,-4	1,1
+
+Note that higher numbers are better (more utility). If neither suspect confesses, they go free, and split the proceeds of their crime which we represent by 5 units of utility for each suspect. However, if one prisoner confesses and the other does not, the prisoner who confesses testifies against the other in exchange for going free and gets the entire 10 units of utility, while the prisoner who did not confess goes to prison and which results in the low utility of -4. If both prisoners confess, then both are given a reduced term, but both are convicted, which we represent by giving each 1 unit of utility: better than having the other prisoner confess, but not so good as going free.
+
+This game has fascinated game theorists for a variety of reasons. First, it is a simple representation of a variety of important situations. For example, instead of confess/not confess we could label the strategies "contribute to the common good" or "behave selfishly." This captures a variety of situations economists describe as public goods problems. An example is the construction of a bridge. It is best for everyone if the bridge is built, but best for each individual if someone else builds the bridge. This is sometimes refered to in economics as an externality. Similarly this game could describe the alternative of two firms competing in the same market, and instead of confess/not confess we could label the strategies "set a high price" and "set a low price." Naturally it is best for both firms if they both set high prices, but best for each individual firm to set a low price while the opposition sets a high price.
+
+A second feature of this game, is that it is self-evident how an intelligent individual should behave. No matter what a suspect believes his partner is going to do, it is always best to confess. If the partner in the other cell is not confessing, it is possible to get 10 instead of 5. If the partner in the other cell is confessing, it is possible to get 1 instead of -4. Yet the pursuit of individually sensible behavior results in each player getting only 1 unit of utility, much less than the 5 units each that they would get if neither confessed. This conflict between the pursuit of individual goals and the common good is at the heart of many game theoretic problems.
+
+A third feature of this game is that it changes in a very significant way if the game is repeated, or if the players will interact with each other again in the future. Suppose for example that after this game is over, and the suspects either are freed or are released from jail they will commit another crime and the game will be played again. In this case in the first period the suspects may reason that they should not confess because if they do not their partner will not confess in the second game. Strictly speaking, this conclusion is not valid, since in the second game both suspects will confess no matter what happened in the first game. However, repetition opens up the possibility of being rewarded or punished in the future for current behavior, and game theorists have provided a number of theories to explain the obvious intuition that if the game is repeated often enough, the suspects ought to cooperate.
+
+If We Were All Better People The World Would Be A Better Place
+
+Some of the power and meaning of game theory can be illustrated by assessing the statement "If we were all better people the world would be a better place." This may seem to you to be self-evidentally true. Or you may recognize that as a matter of logic this involves the fallacy of composition: just because a statement applies to each individual person it need not apply to the group. Game theory can give precise meaning to the statement of both what it means to be better people and what it means for the world to be a better place, and so makes it possible to prove or disprove the statement. In fact the statement is false, and this can be shown by a variation of the Prisoner's Dilemma.
+
+Let us start with a variation on the Prisoner's Dilemma game we may call the Pride Game.
+
+
+             proud	  not confess	   confess
+proud      	4.0, 4.0	5.4, 3.6	   1.2, 0.0
+not confess	3.6, 5.4	5.0, 5.0	  -4.0, 10.0
+confess    	0.0, 1.2	10.0, -4.0	 1.0, 1.0
+
+The Pride Game is like the Prisoner's Dilemma game with the addition of the new strategy of being proud. A proud individual is one who will not confess except in retaliation against a rat-like opponent who confesses. In other words, if I stand proud and you confess, I get 1.2, because we have both confessed and I can stand proud before your humiliation, but you get 0, because you stand humiliated before my pride. On the other hand, if we are both proud, then neither of us will confess, however, our pride comes at a cost, as we both try to humiliate the other, so we each get 4, rather than the higher value of 5 we would get if we simply chose not to confess. It would be worse, of course, for me to lose face before your pride by choosing not to confess. In this case, I would get 3.6 instead of 4, and you, proud in the face of my humiliation would get 5.4.
+
+The Pride Game is very different than the Prisoner's Dilemma game. Suppose that we are both proud. In the face of your pride, if I simply chose not to confess I would lose face, and my utility would decline from 4 to 3.6. To confess would be even worse as you would retaliate by confessing, and I would be humiliated as well, winding up with 0. In other words, if we are both proud, and we each believe the other is proud, then we are each making the correct choice. Morever, as we are both correct, anything either of us learns will simply confirm our already correct beliefs. This type of situation - where players play the best they can given their beliefs, and they have learned all there is to learn about their opponents' play is called by game theorists a Nash Equilibrium.
+
+Notice that the original equilibrium of the Prisoner's Dilemma confess-confess is not an equilibrium of the Pride game: if I think you are going to confess, I would prefer to stand proud and humiliate you rather than simply confessing myself.
+
+Now suppose that we become "better people." To give this precise meaning take this to mean that we care more about each other, that is, we are more altruistic, more generous. Specifically, let us imagine that because I am more generous and care more about you, I place a value both on the utility I receive in the "selfish" game described above and on the utility received by you. Not being completely altruistic, I place twice as much weight on my own utility as I do on yours. So, for example, if in the original game I get 3 units of utility, and you get 6 units of utility, then in the new game in which I am an altruist, I get a weighted average of my utility and your utility. I get 2/3 of the 3 units of utility that belonged to me in the original "selfish" game, and 1/3 of the 6 units of utility that belonged to you in the "selfish" game. Overall I get 4 units of utility instead of 3. Because I have become a better more generous person, I am happy that you are getting 6 units of utility, and so this raises my own utility from the selfish level of 3 to the higher level of 4. The new game with altruistic players is described by taking a weighted average of each player's utility with that of his opponent, placing 2/3 weight on his own utility and 1/3 weight on his opponent's. This gives the payoff matrix of the Altruistic Pride Game
+
+
+               proud	            not confess	           confess
+proud	        4.00, 4.00	        4.8, 4.20*	           0.80, 0.40
+not confess	  4.20*, 4.80	        5.00, 5.00	           0.67, 5.33*
+confess	      0.40, 0.80	        5.33*, 0.67	           1.00*, 1.00*
+
+What happens? If you are proud, I should choose not to confess: if I were to be proud I get a utility of 4, while if I choose not to confess I get 4.2, and of course if I do confess I get only 0.4. Looking at the original game, it would be better for society at large if when you are proud I were to choose not to confess. This avoids the confrontation of two proud people, although of course, at my expense. However, as an altruist, I recognize that the cost to me is small (I lose only 0.4 units of utility) while the benefit to you is great (you gain 1.4 units of utility), and so I prefer to "not confess." This is shown in the payoff matrix by placing an asterisk next to the payoff 4.2 in the proud column.
+
+What should I do if you choose not to confess? If I am proud, I get 4.8, if I choose not to confess I get 5, but if I confess, I get 5.33. So I should confess. Again, this is marked with an asterisk. Finally, if you confess, then I no longer wish to stand proud, recognizing that gaining 0.2 by humiliating you comes at a cost of 1 to you. If I choose not to confess I get only 0.67. So it is best for me to confess as well.
+
+What do we conclude? It is no longer an equilibrium for us both to be proud. Each of us in the face of the other's pride would wish to switch to not confessing. Of course it is also not an equilibrium for us both to choose not to confess: each of us would wish to switch to confessing. The only equilibrium is the box marked with two asterisks where we are both playing the best we can given the other player's play: it is where we both choose to confess. So far from making us better off, when we both become more altruist and more caring about one another, instead of both getting a relatively high utility of 4, the equilibrium is disrupted, and we wind up in a situation in which we both get a utility of only 1. Notice how we can give a precise meaning to the "world being a better place." If we both receive a utility of 1 rather than both receiving a utility of 4, the world is clearly a worse place.
+
+The key to game theory and to understanding why better people may make the world a worse place is to understand the delicate balance of equilibrium. It is true that if we simply become more caring and nothing else happens the world will at least be no worse. However: if we become more caring we will wish to change how we behave. As this example shows, when we both try to do this at the same time, the end result may make us all worse off.
+
+To put this in the context of day-to-day life: if we were all more altruistic we would choose to forgive and forget more criminal behavior. The behavior of criminals has a complication. More altruistic criminals would choose to commit fewer crimes. However, as crime is not punished so severely, they would be inclined to commit more crimes. If in the balance more crimes are committed, the world could certainly be a worse place. The example shows how this might work.
+
+For those of you who are interested in or already know more advanced game theory, the Pride Game has only the one Nash equilibrium shown - it is solvable by iterated strict dominance. The Atruistic Pride Game, however, has several mixed strategy equilibria. You can compute them using the fine open source software program Gambit written by Richard McKelvey, Andrew McLennan and Theodore Turocy. One equilibrium involves randomizing between proud and confess, so is worse than the proud-proud equilibrium of the Pride game. The other is strictly mixed in that it randomizes between all three strategies. The payoffs to that equilibrium gives each player 2.31 - so while it is better than both players confessing for certain, it is still less good than the unique equilibrium of the Pride Game.
+
+
+1. What is a Pay off Matrix? Ans :
+GAME THEORY Pay Off Matrix
+By- Parthapratim Choudhury Asst. Prof. M.C. College, Barpeta
+ In a two person zero or constant sum game, the resulting gain can be
+ represented in the form of a matrix which is called Pay-off Matrix or Gain matrix. In
+ other words payoff matrix is a table in which strategies of one player are listed in rows
+ and those of the other player in columns and the cells show payoffs to each player such
+ that the payoff of the row player is listed first.
+ A payoff matrix is an important tool in game theory because it summarizes the
+ necessary information and helps us determine whether a dominant strategy or a Optimal
+ Mixed strategy or a Nash equilibrium exist. In Economics Pay off matrices are widely
+ used while represent ting a game of Duopoly or Oligopoly model.
+ Description of a Pay off Matrix of a two person game.
+ Let us consider a two person game with players A and B. Player A has m possible courses of action and player B has n possible courses of action. The game can be described by means of a pair of Pay off matrices in the following way.
+a) The row designation for each Matrix are the courses of action available to player
+A.
+b) The column designation for each Matrix are the courses of action available to
+player B.
+c) The cell entries in the Pay off matrix of A are the payments to A at the end of a
+Play. The cell entry aij is the payment to A in A’s Pay-off matrix when A chooses
+the ‘i’th course of action and B chooses the ‘j’th course of action.
+d) The cell entries in the Pay off matrix of B are the payments to B at the end of a Play. The cell entry bij is the payment to B in B’s Pay-off matrix when A chooses
+the ‘i’th course of action and B chooses the ‘j’th course of action.
+e) In a two person zero sum game, the cell entries ( bij) in B’s Pay off matrix are the negatives of the corresponding cell entries (aij) in A’s Pay off matrix so that
+aij + bij = 0 .
+f) In a two person constant sum game, the cell entries ( bij) in B’s Pay off matrix are
+related of the corresponding cell entries (aij) in A’s Pay off matrix in such a way that.
+aij + bij = k. Where k is a constant.
+
+The two Pay off Matrices are as follows.
+For a Two Person Zero Sum Game
+A's Pay off Matrix B
+1 2 3....j.....n
+1 a11 a12 a13 .... a1j ..... a1n
+2 a21 a22 a23 .... a2j ..... a2n
+3. . ..............
+. ............ ..
+. ............ ..
+. ............ ..
+. ............
+A.. . ............
+i ai1 ai2 ai3 .... aij ..... ain
+.. . ............ ..
+. ............ ..
+. ............ ..
+. ............
+m am1 am2 am3 .... amj ..... amn
+B's Pay off Matrix
+B
+1 2 3....j.....n
+1 -a11 -a12 -a13 .... -a1j ..... -a1n
+2 -a21 -a22 -a23 .... -a2j ..... -a2n
+3. . ............
+.. . ............ .. .
+............ .. .
+............ .. .
+............ .. .
+ ............
+i -ai1 -ai2 -ai3 .... -aij ..... -ain
+.. . ............ ..
+. ............ ..
+. ............ ..
+. ............
+m -am1 -am2 -am3 .... -amj ..... -amn
+               A
+
+ For a Two Person Constant Sum game
+A's Pay off Matrix
+       B
+    1 2 3....j.....n
+  1 a11 a12 a13 .... a1j ..... a1n
+  2 a21 a22 a23 .... a2j ..... a2n
+  3. . ............
+   .. . ............ ..
+   . ............ .. .
+   ............ .. .
+   ............
+A  .. . ............
+i  ai1 ai2 ai3 .... aij ..... ain
+.. . ............ .. . ............
+.. . ............ .. . ............
+m  am1 am2 am3 .... amj ..... amn
+
+B's Pay off Matrix
+       B
+1 2 3....j.....n
+1 k-a11 k-a12 k-a13 .... k-a1j ..... k-a1n
+2 k-a21 k-a22 k-a23 .... k-a2j ..... k-a2n
+3. . ............
+.. . ............ ..
+. ............ ..
+. ............ ..
+. ............
+A.. . ............
+i k-ai1 k-ai2 k-ai3 .... k-aij ..... k-ain
+.. . ............
+.. . ............
+.. . ............
+.. . ............
+m k-am1 k-am2 k-am3 . . . . k-amj . . . . . k-amn

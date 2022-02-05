@@ -1,0 +1,14 @@
+Define “No Passing Rule" in a sequencing problem.
+
+This means that the passing is not allowed , i.e.,the same order of jobs is maintained over each machine. If n jobs are to be processed through the two machines A and B in the order AB,then this means that each job will go to machine  A first then to B.
+
+Types of Job Sequencing Problem
+Various types of job sequencing problem arise in the world. All sequencing problems
+cannot be solved. Here, we consider the following four types of job sequencing problem:
+I. n jobs are to be processed on 2 machines, say, machine A and machine B in the
+order AB. This means that each job is to be processed first on machine A and
+then on machine B.
+II. n jobs are to be processed on 3 machines A, B and C in the order ABC, i.e., first
+on machine A, second on machine B and third on machine C.
+III. n jobs are to be processed on m machines in the given order
+IV. 2 jobs are to be processed on m machines in the given order.

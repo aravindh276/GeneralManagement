@@ -1,0 +1,116 @@
+Suppose you are playing the game of dart and aiming on the dart board at a particular angle. A mathematician having the knowledge of the game observes few things and says that the chance of you hitting the brown space is 52%, blue space is 20%, green space is 28% and yellow space is 0%. Now, the question arises ‘on what basis did he calculate probability? And How?
+What is Probability?
+is the astounding part of Maths that deals with the outcome of a random event. The word probability means chance or possibility of an outcome. It explains the possibility of a particular event to occur. We often use sentences like - ‘It will probably rain today’, ‘he will probably pass the test’, ‘there is very less probability of getting storm tonight’, ‘most probably the price of onion will go high again’. In all these sentences we replace words like chance, doubt, maybe, likely, etc with the word probability. Probability is basically the prediction of an event which is either based on the study of previous records or the number and type of possible outcomes.
+The Story Behind The Discovery Of Probability
+In the 16th century, a gambler named Chevalier de Mere wanted to find out about the chances of a number appearing on the roll of dice so he decided to approach a French Philosopher and Mathematician Blaise Pascal to solve the dice problem. Blaise Pascal got interested in the concept of possibility and so he discussed it with another French Mathematician, Pierre de Fermat. Both the Mathematicians started working on the concept of probability separately.
+
+
+Later, J. Cardan, an Italian Mathematician wrote the first book named 'Book on Games of Chance' in 1663 that deals with the inception of probability. This caught the attention of some of the great Mathematicians J. Bernoulli, P. Laplace, A.A Markov and A.N.Kolmogorov.
+
+
+Out of all the Mathematicians, A.N.Kolmogorov, a Russian mathematician, treated probability as a function of outcomes of the experiment. With the help of this concept, we can find the probability of events allied with discrete sample spaces. This also establishes the concept of conditional probability which is important for the perception of Bayes' Theorem, multiplication rule and independence of events. In 1812, Laplace also came up with ‘Theory Analytique des Probabilities’ which is considered as the greatest contribution by an individual to the theory of probability. The deductions and reasoning introduced by these mathematicians related to probability are now being used in Biology, economics, genetics, physics, sociology, etc.
+
+
+Definition of Probability
+“Probability is a mathematical term for the likelihood that something will occur. It is the ability to understand and estimate the possibility of a different combination of outcomes.”
+
+
+Terms related to Probability
+
+
+Random Experiment
+The accomplishment of action without any prior conscious decision results in a set of possible outcomes. This action is called the Random experiment. Probability is the prediction of a particular outcome of a random event. Example- rolling a die, tossing a coin, and drawing a card from a deck are all examples of random experiments.
+
+
+Outcome
+The result of any random experiment is called an outcome.  Suppose you tossed a coin and got head as the upper surface. So, tossing a coin is a random experiment which resulted in an outcome ‘head’.
+
+
+Sample space
+It is a set of all the possible outcomes for a random experiment. For example - Obtaining a head or a tail on tossing of a coin is possible. Thus, Head and Tail are the sample space. Similarly on rolling a die, we can get either of the following numbers - 1, 2, 3, 4, 5, 6. Thus, 1, 2, 3, 4, 5, 6 are the sample space. There are six sample spaces or possible outcomes if a card is drawn from a deck.
+
+
+Equally likely outcomes
+When the relative occurrence of outcomes of a random experiment turns out to be equal for a large number of times, then the outcomes are called equally likely outcomes. Example,  the relative occurrences of Head and Tail on tossing a coin for a very large number of tosses is equal. So, Head and Tail are equally likely outcomes which make the tossing of a coin fair and unbiased if it's to decide between two options.
+
+
+Event
+In the case of a random experiment, an event is a set of possible outcomes at a specified condition. Example - On rolling of a die, 4 is not obtained. This event is the random experiment that is rolling of a die whose result is not 4. Thus, this event has 5 possible outcomes that is 1, 2, 3, 5, 6. Suppose it's mentioned that the event F is equal to obtaining a black card while drawing a card from a deck. In this case, the event F has 26 possible outcomes because there are 26 black cards all total that is 13 spades and 13 clubs.
+
+
+Types of Event:
+Complementary events
+Independent events
+Mutually exclusive events
+
+
+Types of Probability
+
+
+There are three major types of probabilities:
+Theoretical Probability - Prediction about a particular event can be precisely done with the access of statistical data of an event. Definition of probability in statistics is based on the possibility of the occurrence of an outcome. Suppose if you are willing to find out the theoretical probability of getting a number '5' on rolling a die, then you should determine the number of possible outcomes. We are aware of the fact that a die has 6 numbers (i.e, 1,2,3,4,5,6), thus the number of possible outcomes is also six. So, the chance of getting 6 on rolling a die is one out of six, that is 1:6. Similarly, we know that the total number of possible outcomes on tossing a coin is 2 because you can either get head or tail. Thus, the theoretical probability of getting head on tossing a coin is ½.
+
+
+Experimental Probability - Experimental probability is the definition statistics of unlike theoretical probability definition includes the number of trials. Suppose a coin is tossed 30 times and out of those 30times we got tails 12 times, then the experimental probability of getting a head is 12:30. This calculation of probability is based on the prior carried out experiments. Experimental probability is equal to the number of all the possible outcomes of an event divided by total number of trials. Example- a die rolled 50 times results in the appearance of 6 thrice. So the Experimental probability of getting six is 6/50.
+
+
+Axiomatic Probability - Axiomatic Probability is a theory of unifying probability where there is an application of a set of rules made by Kolmogorov.
+
+
+The three axioms are:
+The probability of an event A is always greater or equal to zero but can never be less than zero.
+If S is a sample space then the probability of occurrence of sample space is always 1. That is, if the experiment is performed then it is sure to get one of the sample spaces.
+For mutually exclusive events, the probability of either of the events happening is the sum of the probability of both the events happening.
+
+
+Formula for Probability
+When the possibility of occurrence of each outcome is the same in a particular event, the experiment or event is said to have equally likely outcomes. Example on rolling a die the possibility of getting a number is equally likely but getting a red ball from the bag of four red balls and 2 blue balls is not equally likely.
+
+
+On the basis of experimental formula, we can say that the probability is:
+
+
+       P(E) = Number of trials in which the event happened/Total number of trials
+On the basis of theoretical formula, we can say that the probability is:
+
+
+      P(E) =Number of outcomes favourable to E/Number of all possible outcomes of the experiment
+
+
+
+Example 1: What is the probability of getting a tail if a coin is tossed once?
+Solution: The total number of possible outcomes is 2 that is Head and Tail.
+Let the event of getting a tail be E.
+
+
+The probability of getting a tail on tossing a coin is:
+
+
+P(E) =Number of outcomes favouable to E /Number of all possible outcomes of the experiment
+=1/2
+
+
+Example 2: A bag contains a blue ball and a red ball and a yellow ball of the same size and weight. If Archana picks out a ball from the bag randomly, then what is the probability of getting a (i) blue ball (ii) yellow ball and (iii) red ball.
+
+
+Solution:
+The total number of balls inside the bag is 3 out of which one ball is red, one ball is blue and yellow. If Archana takes out a ball from the bag randomly then
+(i) The probability of getting a blue ball = 1/3
+(ii) The probability of getting a yellow ball = 1/3
+(iii) The probability of getting a red ball = 1/3
+
+
+Uses of Probability
+Probability is important to figure out if a particular thing is going to occur in an event or not. It also helps us to predict future events and take action accordingly. Below are the uses of probability in our day to day life.
+
+
+Weather forecasting - We often check weather forecasting before planning for an outing.Weather forecast tells us if the day will be cloudy, sunny, stormy or rainy. On the basis of the prediction made we plan our day. Suppose the weather forecast says there is a 75% chance of rain. Now, the question arises how is the calculation of probability or precise prediction done. The access to the historical database and the use of certain tools and techniques helps in calculating the probability. For example, according to the database if out of 100 days, 60 days were cloudy then we can say that there is 60% chance that the day will be cloudy depending on other parameters like temperature, humidity, pressure, etc.
+
+
+Agriculture - Temperature, season and weather plays an important role in agriculture and farming. Earlier we did not have a better understanding of weather forecasting but now various technologies are developed for weather forecasting which helps the farmers to do their job well on the basis of predictions. Undoubtedly, the occurrence of erratic weather is beyond human control but it is possible to prepare for the adverse weather if it is forecasted beforehand. The process of sowing is usually done in clear weather. Thus, the accurate prediction of weather enables the farmer to take major steps in order to prevent big loss by saving their crops. The planning of other suitable farming operations like irrigations, application of fertilizers and pesticides, etc depends on weather, thus a proper weather forecast is needed.
+
+
+Politics - Many politicians want to predict the outcome of an election even before the polling is done. Sometimes they predict which political party will rise to power by closely studying the results of exit polls. There are some politicians who spend a lot only to predict the results, so that they can save themselves from being dethroned. There are other good uses of probability like predicting the number of students who would be needing jobs in the upcoming year so that the vacancy can be created accordingly. Politicians can also analyze the rate of car and bike accidents increased in past years so that they can take measures and reduce road accidents.
+
+
+Insurance - Insurance companies use probability to find out the chances of a person’s death by studying the database of the person’s family history, and personal habits like drinking and smoking. Probability also helps to examine and evaluate the best insurance plan for the benefit of a person and his family. Suppose a person who is an active smoker has more chances of getting lung cancer as compared to the people who don’t. Thus, it is beneficial for a smoker to go for health insurance rather than vehicle or house insurance for the betterment of his family.

@@ -1,0 +1,83 @@
+Explain the concepts and theory of Probability.
+
+In our day to day life the “probability” or “chance” is very commonly used term. Sometimes, we use to say “Probably it may rain tomorrow”, “Probably Mr. X may come for taking his class today”, “Probably you are right”. All these terms, possibility and probability convey the same meaning. But in statistics probability has certain special connotation unlike in Layman’s view.
+
+The theory of probability has been developed in 17th century. It has got its origin from games, tossing coins, throwing a dice, drawing a card from a pack. In 1954 Antoine Gornband had taken an initiation and an interest for this area.
+
+After him many authors in statistics had tried to remodel the idea given by the former. The “probability” has become one of the basic tools of statistics. Sometimes statistical analysis becomes paralyzed without the theorem of probability. “Probability of a given event is defined as the expected frequency of occurrence of the event among events of a like sort.” (Garrett)
+
+The probability theory provides a means of getting an idea of the likelihood of occurrence of different events resulting from a random experiment in terms of quantitative measures ranging between zero and one. The probability is zero for an impossible event and one for an event which is certain to occur.
+
+Approaches of Probability Theory
+
+Classical Probability
+The classical approach to probability is one of the oldest and simplest school of thought. It has been originated in 18th century which explains probability concerning games of chances such as throwing coin, dice, drawing cards etc.
+
+The definition of probability has been given by a French mathematician named “Laplace”. According to him probability is the ratio of the number of favourable cases among the number of equally likely cases.
+
+Or in other words, the ratio suggested by classical approach is:
+
+Pr. = Number of favourable cases/Number of equally likely cases
+
+For example, if a coin is tossed, and if it is asked what is the probability of the occurrence of the head, then the number of the favourable case = 1, the number of the equally likely cases = 2.
+
+Pr. of head = 1/2
+
+Symbolically it can be expressed as:
+
+P = Pr. (A) = a/n, q = Pr. (B) or (not A) = b/n
+
+1 – a/n = b/n = (or) a + b = 1 and also p + q = 1
+
+p = 1 – q, and q = 1 – p and if a + b = 1 then so also a/n + b/n = 1
+
+In this approach the probability varies from 0 to 1. When probability is zero it denotes that it is impossible to occur.
+
+If probability is 1 then there is certainty for occurrence, i.e. the event is bound to occur.
+
+Example:
+
+From a bag containing 20 black and 25 white balls, a ball is drawn randomly. What is the probability that it is black.
+
+Pr. of a black ball = 20/45 = 4/9 = p, 25 Pr. of a white ball = 25/45 = 5/9 = q
+
+p = 4/9 and q = 5/9 (p + q= 4/9 + 5/9= 1)
+
+Relative Frequency Theory of Probability
+This approach to probability is a protest against the classical approach. It indicates the fact that if n is increased upto the ∞, we can find out the probability of p or q.
+
+Example:
+
+If n is ∞, then Pr. of A= a/n = .5, Pr. of B = b/n = 5
+
+If an event occurs a times out of n its relative frequency is a/n. When n becomes ∞, is called the limit of relative frequency.
+
+Pr. (A) = limit a/n
+
+where n → ∞
+
+Pr. (B) = limit bl.t. here → ∞.
+
+Axiomatic approach
+
+An axiomatic approach is taken to define probability as a set function where the elements of the domain are the sets and the elements of range are real numbers. If event A is an element in the domain of this function, P(A) is the customary notation used to designate the corresponding element in the range.
+
+Probability Function
+
+A probability function p(A) is a function mapping the event space A of a random experiment into the interval [0,1] according to the following axioms;
+
+Axiom 1. For any event A, 0 ≤ P(A) ≤ 1
+
+Axiom 2. P(Ω) = 1
+
+Axiom 3. If A and B are any two mutually exclusive events then,
+
+                              P(A ∪ B)) = P(A) + P(B)
+
+As given in the third axiom the addition property of the probability can be extended to any number of events as long as the events are mutually exclusive. If the events are not mutually exclusive then;
+
+P(A ∪ B) = P(A) + P(B) – P(A∩B)
+
+P(A∩B) is Φ if both the events are mutually exclusive.
+
+If there are two types of objects among the objects of similar or other natures then the probability of one object i.e. Pr. of A = .5, then Pr. of B = .5.

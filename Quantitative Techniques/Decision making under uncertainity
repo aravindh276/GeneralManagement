@@ -1,0 +1,53 @@
+Describe the criteria for decision making under
+uncertainty
+A decision problem, where a decision-maker is aware of various possible states of nature but has insufficient information to assign any probabilities of occurrence to them, is termed as decision-making under uncertainty. A decision under uncertainty is when there are many unknowns and no possibility of knowing what could occur in the future to alter the outcome of a decision.
+
+We feel uncertainty about a situation when we can't predict with complete confidence what the outcomes of our actions will be. We experience uncertainty about a specific question when we can't give a single answer with complete confidence.
+
+Launching a new product, a major change in marketing strategy or opening your first branch could be influenced by such factors as the reaction of competitors, new competitors, technological changes, changes in customer demand, economic shifts, government legislation and a host of conditions beyond your control. These are the type of decisions facing the senior executives of large corporations who must commit huge resources.
+
+The small business manager faces, relatively, the same type of conditions which could cause decisions that result in a disaster from which he or she may not be able to recover.
+A situation of uncertainty arises when there can be more than one possible consequences of selecting any course of action. In terms of the payoff matrix, if the decision-maker selects A1, his payoff can be X11, X12, X13, etc., depending upon which state of nature S1, S2, S3, etc., is going to occur.
+
+Methods of Decision Making under Uncertainty
+
+The methods of decission making under certainity are.There are a variety of criteria that have been proposed for the selection of an optimal course of action under the environment of uncertainty. Each of these criteria make an assumption about the attitude of the decision-maker.
+
+Maximin Criterion: This criterion, also known as the criterion of pessimism, is used when the decision-maker is pessimistic about future. Maximin implies the maximisation of minimum payoff. The pessimistic decision-maker locates the minimum payoff for each possible course of action. The maximum of these minimum payoffs is identified and the corresponding course of action is selected. This is explained in the following example :
+Example : Let there be a situation in which a decision-maker has three possible alternatives A1, A2 and A3, where the outcome of each of them can be affected by the occurrence of any one of the four possible events S1, S2, S3 and S4. The monetary payoffs of each combination of Ai and Sj are given in the following table:
+
+monetary payoffs of each combination of Ai and Sj
+
+Events->    s1 s2 s3 s4 Min.Payoff Max.payoff
+Actions\|/
+A1          27 12 14 26   12         27
+A2          45 17 35 20   17         45
+A3          52 36 29 15   15         52
+
+Solution: Since 17 is maximum out of the minimum payoffs, the optimal action is A2.
+
+Maximax Criterion: This criterion, also known as the criterion of optimism, is used when the decision-maker is optimistic about future. Maximax implies the maximisation of maximum payoff. The optimistic decision-maker locates the maximum payoff for each possible course of action. The maximum of these payoffs is identified and the corresponding course of action is selected. The optimal course of action in the above example, based on this criterion, is A3.
+Regret Criterion: This criterion focuses upon the regret that the decision-maker might have from selecting a particular course of action. Regret is defined as the difference between the best payoff we could have realised, had we known which state of nature was going to occur and the realised payoff. This difference, which measures the magnitude of the loss incurred by not selecting the best alternative, is also known as opportunity loss or the opportunity cost.
+From the payoff matrix (given in § 12.6), the payoffs corresponding to the actions A1, A2, ...... An under the state of nature Sj are X1i, X2j, ...... Xnj respectively. Of these assume that X2j is maximum. Then the regret in selecting Ai, to be denoted by Rij is given by X2j - Xij, i = 1 to m. We note that the regret in selecting A2 is zero. The regrets for various actions under different states of nature can also be computed in a similar way.
+
+The regret criterion is based upon the minimax principle, i.e., the decision-maker tries to minimise the maximum regret. Thus, the decision-maker selects the maximum regret for each of the actions and out of these the action which corresponds to the minimum regret is regarded as optimal. The regret matrix of example can be written as given below:
+
+Events->    s1 s2 s3 s4 Max.Regret
+Actions\|/
+A1          25 24 21 0     25
+A2           7 19 0  6     19
+A3           0  0 6 11    11
+
+
+From the maximum regret column, we find that the regret corresponding to the course of action is A3 is minimum. Hence, A3 is optimal.
+
+Hurwicz Criterion: The maximax and the maximin criteria, discussed above, assumes that the decision-maker is either optimistic or pessimistic. A more realistic approach would, however, be to take into account the degree or index of optimism or pessimism of the decision-maker in the process of decision-making. If a, a constant lying between 0 and 1, denotes the degree of optimism, then the degree of pessimism will be 1 - a. Then a weighted average of the maximum and minimum payoffs of an action, with a and 1 - a as respective weights, is computed. The action with highest average is regarded as optimal.
+We note that a nearer to unity indicates that the decision-maker is optimistic while a value nearer to zero indicates that he is pessimistic. If a = 0.5, the decision maker is said to be neutralist.
+
+We apply this criterion to the payoff matrix of example 17. Assume that the index of optimism a = 0.7.
+
+criterion to the payoff matrix
+
+Since the average for A3 is maximum, it is optimal.
+
+Laplace Criterion: In the absence of any knowledge about the probabilities of occurrence of various states of nature, one possible way out is to assume that all of them are equally likely to occur. Thus, if there are n states of nature, each can be assigned a probability of occurrence = 1/n. Using these probabilities, we compute the expected payoff for each course of action and the action with maximum expected value is regarded as optimal.

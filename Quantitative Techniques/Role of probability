@@ -1,0 +1,109 @@
+Explain the role of probability in business decision
+making.
+Let’s start simple. You’ve surveyed 50 customers to know if they are satisfied with your product/service. Out of them, 35 said they are happy.
+
+Based on that information alone, can you predict what’s the attitude of a random customer? You can make such predictions with probability:
+
+35/50 = 0.7
+
+which means, there’s a 70% chance that an out-of-sample customer will have a positive view of the product. That’s probability in the simplest terms — the likelihood of something happening.
+
+The above example has only 1 outcome — customers’ positive attitude. However, some customers may demonstrate other preferences such as negative or neutral attitudes. For multiple outcomes such as those, calculating probability is slightly different. Let's explore two methods with examples.
+
+Addition rule
+
+Out of 50 customers — 35 held positive, 10 negative and 5 neutral views. You now want to predict the probability that a customer holds either positive or neutral view of the product.
+
+The solution is as simple as it sounds — adding two probabilities.
+
+P(positive) = 35/50
+
+P(neutral) = 5/50
+
+Therefore, the probability of a customer holding a positive OR neutral view is 35/50 + 5/50 = 80%.
+
+A general formulation of the Addition Rule is as follows:
+
+P(A or B) = P(A) + P(B) — P(A and B)
+
+By using formal notation from set theory:
+
+P(A⋃B) = P(A) + P(B) — P(A⋂B)
+
+Multiplication rule
+
+The Addition Rule works for two events that are mutually exclusive. In the above example, a customer cannot hold a positive and a negative view at the same time, because they are mutually exclusive.
+
+However, there are situations where two events are not mutually exclusive, and therefore, both outcomes are possible simultaneously. Let’s say, a student takes exams in two subjects — physics and literature. The probabilities that the student will pass each exam are:
+
+P(physics) = 0.4
+P(literature) = 0.3
+
+Based on this info, can you predict what’s the probability that the student will pass both physics and literature?
+
+From the data, it sounds like the student has difficulty passing either one exam. So the probability of passing both exams must be extremely low. That’s where the Multiplication Rule comes in handy to calculate joint probability:
+
+P(physics and literature) = P(physics) * P(literature)
+
+The answer is of course 0.4*0.3 = 12%.
+
+To generalize such problems for two events A and B that are not mutually exclusive:
+
+P(A⋂B) = P(A) . P(B)
+
+Conditional Probability
+
+Conditional probability is the likelihood/chance of something happening, provided that another condition is met.
+
+As an example let’s consider two related events.
+
+If a new startup survives it’s 5th year, what is the probability that it will eventually become a billion dollar company?
+
+So for the startup become a billion dollar company one day, it is subject to its survival past 5th year. Of all the startups created if 20% survive, and 5% of the survived companies become a billion-dollar company, then the probability that a new company will eventually become a billion-dollar company is: 0.2* 0.05 = 1%.
+
+A formal representation of conditional probability is: P(B|A) = P(A and B)/P(A)
+
+Business application of probability
+
+The key role of probability is to improve decision-making in the face of uncertainties. It helps decision-making objective and data-driven rather than based on instinct.
+
+Let’s say, ice cream sales of a beach-front store is dependent upon two things —good weather and a high number of visitors.
+
+So a week from now if the probability of good weather is 90% and expected visitor rate is 30%, then the probability of expected sales is:
+
+P(weather) * P(expected visitors) = 0.90 * 0.30 = 27%.
+
+That number alone can improve the decision of the owner on how many employees to schedule for that day.
+
+A couple of other examples of business applications:
+
+Selecting investment choices based on risk-adjusted return on investment (ROI), especially in situations where the investment options are: a) high risk high return, b) high risk low return, or c) low risk low return.
+Property insurance companies use probability to calculate the odds of insurance claims from a segment of customers and decide on premiums to be charged. Similarly, life insurance companies use probability to estimate expected lifetime of customers to set premiums.
+Final word
+
+Businesses — big or small — often make important decisions subjectively based on hunch, instinct and experience. But with increasing volume of data, tools and techniques, many organizations are moving towards data-driven decisions in the face of uncertainties. In this short article some preliminary concepts of probability and their applications were introduced. For a related article on probability check out the article: Probability distribution: an intuition for data scientists.
+
+Probability concepts are abstract ideas used to identify the degree of risk a business decision involves. In determining probability, risk is the degree to which a potential outcome differs from a benchmark expectation. You can base probability calculations on a random or full data sample. For example, consumer demand forecasts commonly use a random sampling from the target market population. However, when you’re making a purchasing decision based solely on cost, the full cost of each item determines which comes the closest to matching your cost expectation.
+
+Mutual Exclusivity
+The concept of mutually exclusivity applies if the occurrence of one event prohibits the occurrence of another event. For example, assume you have two tasks on your to-do list. Both tasks are due today and both will take the entire day to complete. Whichever task you choose to complete means the other will remain incomplete. These two tasks can’t have the same outcome. Thus, these tasks are mutually exclusive.
+
+Dependent Events
+A second concept refers to the impact two separate events have on each other. Dependent events are those in which the occurrence of one event affects -- but doesn't prevent -- the probability of the other occurring. For example, assume a five-year goal is to purchase a new building and pay the full purchase price in cash. The expected funding source is investment returns from excess sales revenue investments. The probability of the purchase happening within the five-year period depends on whether sales revenues meet projected expectations. This makes these dependent events.
+
+Interdependent Events
+Interdependent events are those in which the occurrence of one event has no effect of the probability of another event. For example, assume consumer demand for hairbrushes is falling to an all-time low. The concept of interdependence says that declining demand for hairbrushes and the probability that demand for shampoo will also decline share no relationship. In the same way, if you intend to purchase a new building by investing personal funds instead of relying on investment returns from excess sales revenues, the purchase of a new building and sales revenues share no relationship. Thus, these are now interdependent events.
+
+Small-business owners cannot always rely on hunches, instincts and lucky guesses to survive and thrive. In a competitive business environment, the mathematical tools offered in probability analysis can show entrepreneurs the most likely outcomes and most profitable paths. Probability analysis features formulas that business owners can employ in a controlled manner to anticipate potential results. Probability distributions is one such formula.
+
+Probability Distribution
+A probability distribution is a statistical function that identifies all the conceivable outcomes and odds that a random variable will have within a specific range. This range is determined by the lowest and highest potential values for that variable. For instance, if a company expects to bring in between $100,000 and $500,000 in monthly revenue, the graph will start with $100,000 at the low end and $500,000 at the high end. The graph for a typical probability distribution resembles a bell curve, where the least likely events fall closest to the extreme ends of the range and the most likely events occur closer to the midpoint of the extremes.
+
+Sales Predictions
+A major application for probability distributions lies in anticipating future sales incomes. Companies of all sizes rely on sales forecasts to predict revenues, so the probability distribution of how many units the firm expects to sell in a given period can help it anticipate revenues for that period. The distribution also allows a company to see the worst and best possible outcomes and plan for both. The worst outcome could be 100 units sold in a month, while the best result could be 1,000 units sold in that month.
+
+Risk Assessments
+Probability distributions can help companies avoid negative outcomes just as they help predict positive results. Statistical analysis can also be useful in analyzing outcomes of ventures that involve substantial risks. The distribution shows which outcomes are most likely in a risky proposition and whether the rewards for taking specific actions compensate for those risks. For instance, if the probability analysis shows that the costs of launching a new project is likely to be $350,000, the company must determine whether the potential revenues will exceed that amount to make it a profitable venture.
+
+Scenario Analysis
+Probability distributions are highly useful in producing tools to evaluate various business scenarios. Scenario analysis employs probability distributions to show numerous distinct possible outcomes stemming from a specific action or consequence. This analysis often involves examining the worst-case, best-case and most likely scenarios given the probability distribution for that action. For instance, the probability distribution can show that the most likely scenario for a new product launch will cost $250,000, while the best possible scenario shows it will cost $150,000 and the worst possible scenario shows it will cost $500,000. Businesses can work toward the best possible outcome while preparing for the worst.

@@ -1,0 +1,60 @@
+Emphasise the importance of LPP.
+
+Linear programming (LP)  or Linear Optimisation may be defined as the problem of maximizing or minimizing a linear function that is subjected to linear constraints. The constraints may be equalities or inequalities. The optimisation problems involve the calculation of profit and loss.  Linear programming problems are an important class of optimisation problems, that helps to find the feasible region and optimise the solution in order to have the highest or lowest value of the function.
+
+In other words, linear programming is considered as an optimization method to maximize or minimize the objective function of the given mathematical model with the set of some requirements which are represented in the linear relationship. The main aim of the linear programming problem is to find the optimal solution.
+
+Linear programming is the method of considering different inequalities relevant to a situation and calculating the best value that is required to be obtained in those conditions. Some of the assumptions taken while working with linear programming are:
+
+The number of constraints should be expressed in the quantitative terms
+The relationship between the constraints and the objective function should be linear
+The linear function (i.e., objective function) is to be optimised
+Components of Linear Programming
+The basic components of the LP are as follows:
+
+Decision Variables
+Constraints
+Data
+Objective Functions
+
+Characteristics of Linear Programming
+The following are the five characteristics of the linear programming problem:
+
+Constraints – The limitations should be expressed in the mathematical form, regarding the resource.
+
+Objective Function – In a problem, the objective function should be specified in a quantitative way.
+
+Linearity – The relationship between two or more variables in the function must be linear. It means that the degree of the variable is one.
+
+Finiteness –  There should be finite and infinite input and output numbers. In case, if the function has infinite factors, the optimal solution is not feasible.
+
+Non-negativity – The variable value should be positive or zero. It should not be a negative value.
+
+Decision Variables – The decision variable will decide the output. It gives the ultimate solution of the problem. For any problem, the first step is to identify the decision variables.
+
+Linear Programming Problems
+The Linear Programming Problems (LPP) is a problem that is concerned with finding the optimal value of the given linear function. The optimal value can be either maximum value or minimum value. Here, the given linear function is considered an objective function. The objective function can contain several variables, which are subjected to the conditions and it has to satisfy the set of linear inequalities called linear constraints. The linear programming problems can be used to get the optimal solution for the following scenarios, such as manufacturing problems, diet problems, transportation problems, allocation problems and so on.
+
+Importance of Linear Programming
+Linear programming is broadly applied in the field of optimisation for many reasons. Many functional problems in operations analysis can be represented as linear programming problems. Some special problems of linear programming are such as network flow queries and multi-commodity flow queries are deemed to be important to have produced much research on functional algorithms for their solution.
+
+What are the requirements of linear programming?
+
+The five basic requirements of linear programming are:
+Objective function
+Constraints
+Linearity
+Non-negativity
+Finiteness
+
+Mention the advantages of Linear programming
+
+The advantages of linear programming are:
+Linear programming provides insights to the business problems
+It helps to solve multi-dimensional problems
+According to the condition change, LP helps in making the adjustments
+By calculating the cost and profit of various things, LP helps to take the best optimal solution
+
+What is meant by linear programming problems?
+
+The linear programming problems (LPP) helps to find the best optimal solution of a linear function (also, known as the objective function) which are placed under certain constraints (set of linear inequality constraints)

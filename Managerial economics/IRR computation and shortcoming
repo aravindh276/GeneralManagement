@@ -1,0 +1,56 @@
+What is IRR? How is it computed? Point out its
+shortcomings
+
+The internal rate of return (IRR) is a metric used in financial analysis to estimate the profitability of potential investments. IRR is a discount rate that makes the net present value (NPV) of all cash flows equal to zero in a discounted cash flow analysis.
+
+IRR calculations rely on the same formula as NPV does. Keep in mind that IRR is not the actual dollar value of the project. It is the annual return that makes the NPV equal to zero.
+
+Generally speaking, the higher an internal rate of return, the more desirable an investment is to undertake. IRR is uniform for investments of varying types and, as such, can be used to rank multiple prospective investments or projects on a relatively even basis. In general, when comparing investment options with other similar characteristics, the investment with the highest IRR probably would be considered the best.
+
+Formula and Calculation for IRR
+
+The formula and calculation used to determine this figure are as follows:
+
+​0=NPV=t=1∑T​(1+IRR)tCt​​−C0​where:Ct​=Net cash inflow during the period tC0​=Total initial investment costsIRR=The internal rate of returnt=The number of time periods​
+
+How to Calculate IRR
+
+Using the formula, one would set NPV equal to zero and solve for the discount rate, which is the IRR.
+The initial investment is always negative because it represents an outflow.
+Each subsequent cash flow could be positive or negative, depending on the estimates of what the project delivers or requires as a capital injection in the future.
+However, because of the nature of the formula, IRR cannot be easily calculated analytically and instead must be calculated iteratively through trial and error or by using software programmed to calculate IRR (e.g., using Excel).1
+How to Calculate IRR in Excel
+
+Using the IRR function in Excel makes calculating the IRR easy. Excel does all the necessary work for you, arriving at the discount rate you are seeking to find. All you need to do is combine your cash flows, including the initial outlay as well as subsequent inflows, with the IRR function.1 The IRR function can be found by clicking on the Formulas Insert (fx) icon.2
+
+Here is a simple example of an IRR analysis with cash flows that are known and annually periodic (one year apart). Assume a company is assessing the profitability of Project X. Project X requires $250,000 in funding and is expected to generate $100,000 in after-tax cash flows the first year and grow by $50,000 for each of the next four years.
+
+In this case, the IRR is 56.72%, which is quite high.
+
+Excel also offers two other functions that can be used in IRR calculations: the XIRR, and the MIRR. XIRR is used when the cash flow model does not exactly have annual periodic cash flows.3 The MIRR is a rate-of-return measure that includes the integration of cost of capital and the risk-free rate.4
+
+How to Calculate IRR in Excel
+
+Understanding IRR
+
+The ultimate goal of IRR is to identify the rate of discount, which makes the present value of the sum of annual nominal cash inflows equal to the initial net cash outlay for the investment. Several methods can be used when seeking to identify an expected return, but IRR is often ideal for analyzing the potential return of a new project that a company is considering undertaking.
+
+Think of IRR as the rate of growth that an investment is expected to generate annually. Thus, it can be most similar to a compound annual growth rate (CAGR). In reality, an investment will usually not have the same rate of return each year. Usually, the actual rate of return that a given investment ends up generating will differ from its estimated IRR.
+Limitations of the IRR
+IRR is generally most ideal for use in analyzing capital budgeting projects. It can be misconstrued or misinterpreted if used outside of appropriate scenarios. In the case of positive cash flows followed by negative ones and then by positive ones, the IRR may have multiple values. Moreover, if all cash flows have the same sign (i.e., the project never turns a profit), then no discount rate will produce a zero NPV.
+
+Within its realm of uses, IRR is a very popular metric for estimating a project’s annual return. However, it is not necessarily intended to be used alone. IRR is typically a relatively high value, which allows it to arrive at an NPV of zero. The IRR itself is only a single estimated figure that provides an annual return value based on estimates. Since estimates in IRR and NPV can differ drastically from actual results, most analysts will choose to combine IRR analysis with scenario analysis. Scenarios can show different possible NPVs based on varying assumptions.
+
+As mentioned, most companies do not rely on IRR and NPV analyses alone. These calculations are usually also studied in conjunction with a company’s WACC and an RRR, which provides for further consideration.
+
+Companies usually compare IRR analysis to other tradeoffs. If another project has a similar IRR with less up-front capital or simpler extraneous considerations, then a simpler investment may be chosen despite IRRs.
+
+In some cases, issues can also arise when using IRR to compare projects of different lengths. For example, a project of a short duration may have a high IRR, making it appear to be an excellent investment. Conversely, a longer project may have a low IRR, earning returns slowly and steadily. The ROI metric can provide some more clarity in these cases, although some managers may not want to wait out the longer time frame.
+
+For the computation of the internal rate of return, we use the same formula as NPV. To derive the IRR, an analyst has to rely on trial and error method and cannot use analytical methods. With automation, various software (like Microsoft Excel) is also available to calculate IRR. In Excel, there is a financial function that uses cash flows at regular intervals for calculation.
+
+     (Cash Flows)
+IRR=------------ - Intial Investment
+      (1+r)^i
+
+The rate at which the cost of investment and the present value of future cash flows match will be considered as the ideal rate of return. A project that can achieve this is a profitable project. In other words, at this rate the cash outflows and the present value of inflows are equal, making the project attractive.

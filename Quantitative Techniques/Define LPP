@@ -1,0 +1,30 @@
+Define LPP.
+The Linear Programming Problems (LPP) is a problem that is concerned with finding the optimal value of the given linear function. The optimal value can be either maximum value or minimum value. Here, the given linear function is considered an objective function. The objective function can contain several variables, which are subjected to the conditions and it has to satisfy the set of linear inequalities called linear constraints. The linear programming problems can be used to get the optimal solution for the following scenarios, such as manufacturing problems, diet problems, transportation problems, allocation problems and so on.
+
+Methods to Solve Linear Programming Problems
+
+The linear programming problem can be solved using different methods, such as the graphical method, simplex method, or by using tools such as R, open solver etc. Here, we will discuss the two most important techniques called the simplex method and graphical method in detail.
+
+Linear Programming Simplex Method
+
+The simplex method is one of the most popular methods to solve linear programming problems. It is an iterative process to get the feasible optimal solution. In this method, the value of the basic variable keeps transforming to obtain the maximum value for the objective function. The algorithm for linear programming simplex method is provided below:
+
+Step 1: Establish a given problem. (i.e.,) write the inequality constraints and objective function.
+
+Step 2: Convert the given inequalities to equations by adding the slack variable to each inequality expression.
+
+Step 3: Create the initial simplex tableau. Write the objective function at the bottom row. Here, each inequality constraint appears in its own row. Now, we can represent the problem in the form of an augmented matrix, which is called the initial simplex tableau.
+
+Step 4: Identify the greatest negative entry in the bottom row, which helps to identify the pivot column. The greatest negative entry in the bottom row defines the largest coefficient in the objective function, which will help us to increase the value of the objective function as fastest as possible.
+
+Step 5: Compute the quotients. To calculate the quotient, we need to divide the entries in the far right column by the entries in the first column, excluding the bottom row. The smallest quotient identifies the row. The row identified in this step and the element identified in the step will be taken as the pivot element.
+
+Step 6: Carry out pivoting to make all other entries in column is zero.
+
+Step 7: If there are no negative entries in the bottom row, end the process. Otherwise, start from step 4.
+
+Step 8: Finally, determine the solution associated with the final simplex tableau.
+
+Graphical Method
+
+The graphical method is used to optimize the two-variable linear programming. If the problem has two decision variables, a graphical method is the best method to find the optimal solution. In this method, the set of inequalities are subjected to constraints. Then the inequalities are plotted in the XY plane. Once, all the inequalities are plotted in the XY graph, the intersecting region will help to decide the feasible region. The feasible region will provide the optimal solution as well as explains what all values our model can take. Let us see an example here and understand the concept of linear programming in a better way.

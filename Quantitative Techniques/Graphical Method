@@ -1,0 +1,40 @@
+What is the Graphical method?
+
+Graphical Method: Owing to the importance of linear programming models in various industries, many types of algorithms have been developed over the years to solve them. Some famous mentions include the Simplex method, the Hungarian approach, and others. Here we are going to concentrate on one of the most basic methods to handle a linear programming problem i.e. the graphical method.
+
+In principle, this method works for almost all different types of problems but gets more and more difficult to solve when the number of decision variables and the constraints increases. Therefore, we’ll illustrate it in a simple case i.e. for two variables only. So let’s get started with the graphical method!
+
+The Graphical Method
+
+We will first discuss the steps of the algorithm:
+
+Step 1: Formulate the LP (Linear programming) problem
+
+We have already understood the mathematical formulation of an LP problem in a previous section. Note that this is the most crucial step as all the subsequent steps depend on our analysis here.
+
+Step 2: Construct a graph and plot the constraint lines
+
+The graph must be constructed in ‘n’ dimensions, where ‘n’ is the number of decision variables. This should give you an idea about the complexity of this step if the number of decision variables increases.
+
+One must know that one cannot imagine more than 3-dimensions anyway! The constraint lines can be constructed by joining the horizontal and vertical intercepts found from each constraint equation.
+
+Step 3: Determine the valid side of each constraint line
+
+This is used to determine the domain of the available space, which can result in a feasible solution. How to check? A simple method is to put the coordinates of the origin (0,0) in the problem and determine whether the objective function takes on a physical solution or not. If yes, then the side of the constraint lines on which the origin lies is the valid side. Otherwise it lies on the opposite one.
+
+Step 4: Identify the feasible solution region
+
+The feasible solution region on the graph is the one which is satisfied by all the constraints. It could be viewed as the intersection of the valid regions of each constraint line as well. Choosing any point in this area would result in a valid solution for our objective function.
+
+Step 5: Plot the objective function on the graph
+
+It will clearly be a straight line since we are dealing with linear equations here. One must be sure to draw it differently from the constraint lines to avoid confusion. Choose the constant value in the equation of the objective function randomly, just to make it clearly distinguishable.
+
+Step 6: Find the optimum point
+
+Optimum Points
+
+An optimum point always lies on one of the corners of the feasible region. How to find it? Place a ruler on the graph sheet, parallel to the objective function. Be sure to keep the orientation of this ruler fixed in space. We only need the direction of the straight line of the objective function. Now begin from the far corner of the graph and tend to slide it towards the origin.
+
+If the goal is to minimize the objective function, find the point of contact of the ruler with the feasible region, which is the closest to the origin. This is the optimum point for minimizing the function.
+If the goal is to maximize the objective function, find the point of contact of the ruler with the feasible region, which is the farthest from the origin. This is the optimum point for maximizing the function

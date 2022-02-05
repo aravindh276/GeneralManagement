@@ -1,0 +1,95 @@
+What is equilibrium price? How is it determined?
+If the seller fixes a higher price of the commodity, the quantity supplied of the
+commodity may be more than the quantity demanded and if he fixes the lower
+price of the commodity, the quantity demanded of the commodity may be more
+than its quantity supplied. You have already learnt that according to the law
+of demand the buyer of a commodity buys more of a commodity at a lower
+price and less of it at a higher price when all other factors determining demand
+remain constant. According to the law of supply, the sellers of a commodity
+are willing to sell more of it at a higher price and less of it at a lower price,
+other factors determining supply remaining constant. The aim of buyer is to
+get maximum satisfaction by spending minimum and the aim of the seller is
+to get maximum profit. If at a price both quantity demanded and quantity
+supplied of a commodity are equal that is called equilibrium price of the
+commodity. In this way, the price of a commodity is determined by the forces
+of demand and supply in the market. But in case of some commodities, the price
+is determined by the government to protect the interest of consumers or
+producers. In this lesson, we will discuss how the price of a commodity is
+determined by the forces of demand and supply.
+11.3 MEANING OF EQUILIBRIUM PRICE
+Equilibrium literally means a state of balance from where there is no tendency
+to change. In other words equilibrium is a situation where the forces determining
+equilibrium are in balance or are equal to each other. Here the forces
+determining equilibrium price are quantity demanded and quantity supplied of
+the commodity. The price at which quantity demanded of a commodity is equal
+to its quantity supplied is called the equilibrium price.
+At equilibrium price quantity demanded and quantity supplied of a commodity
+are equal. This quantity is called the equilibrium quantity of the commodity.
+11.4 DETERMINATION OF EQUILIBRIUM PRICE
+In practical life, the price at which the seller/firm wants to sell a commodity,
+its quantity supplied may be greater or lesser than its quantity demanded. So
+this price is not the equilibrium price of the commodity. Now the question arises
+as to how will equilibrium be reached?
+
+Equilibrium price is the price at which the demand and supply intersect in other words when the quantity demanded and supplied is the same in the market. Graphically equilibrium price is the price at the intersection of demand and supply curve i.e. P.
+
+Market EQUILIBRIUM
+Price(S)
+ |
+ | Equilibrium
+ |    \ | /Supply(S)
+P|____ \|/
+ |     /|\
+ |    / | \Demand(D)
+ |______|_________________
+       Q                 Quantity
+
+       We’ve just explained two ways of finding a market equilibrium: by looking at a table showing the quantity demanded and supplied at different prices, and by looking at a graph of demand and supply. We can also identify the equilibrium with a little algebra if we have equations for the supply and demand curves. Let’s practice solving a few equations that you will see later in the course. Right now, we are only going to focus on the math. Later you’ll learn why these models work the way they do, but let’s start by focusing on solving the equations. Suppose that the demand for soda is given by the following equation:
+
+       Qd=16–2P
+
+
+       where Qd is the amount of soda that consumers want to buy (i.e., quantity demanded), and P is the price of soda. Suppose the supply of soda is
+
+       Qs=2+5P
+
+       where Qs is the amount of soda that producers will supply (i.e., quantity supplied). (Remember, these are simple equations for lines). Finally, recall that the soda market converges to the point where supply equals demand, or
+
+       Qd=Qs
+       We now have a system of three equations and three unknowns (Qd, Qs, and P), which we can solve with algebra. Since
+
+       Qd=Qs
+
+
+       we can set the demand and supply equations equal to each other:
+
+       Qd=Qs
+       16−2P=2+5P
+
+       Step 1: Isolate the variable by adding 2P to both sides of the equation, and subtracting 2 from both sides.
+
+       16 −2P=2+5P
+      -2+2P=−2+2P
+       14=7P
+       Step 2: Simplify the equation by dividing both sides by 7.
+
+       14/7=7P/7
+       2=P
+
+
+       The equilibrium price of soda, that is, the price where Qs = Qd will be $2. Now we want to determine the quantity amount of soda. We can do this by plugging the equilibrium price into either the equation showing the demand for soda or the equation showing the supply of soda. Let’s use demand. Remember, the formula for quantity demanded is the following:
+
+       Qd=16 −2P
+       Taking the price of $2, and plugging it into the demand equation, we get
+
+       Qd=16–2(2)	Qd=16–4	Qd=12
+
+       So, if the price is $2 each, consumers will purchase 12. How much will producers supply, or what is the quantity supplied? Taking the price of $2, and plugging it into the equation for quantity supplied, we get the following:
+
+       Qs=2+5P	Qs=2+5(2)	Qs=2+10	Qs=12
+
+       Now, if the price is $2 each, producers will supply 12 sodas. This means that we did our math correctly, since
+
+       Qd=Qs
+
+       and both Qd and Qs are equal to 12. That confirms that we’ve found the equilibrium quantity.

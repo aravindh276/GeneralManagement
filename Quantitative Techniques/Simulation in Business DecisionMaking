@@ -1,0 +1,45 @@
+Explain the role of simulation in business decision ma
+king
+Simulation is used to model efficiently a wide variety of systems that are important to managers. A simulation is basically an imitation, a model that imitates a real-world process or system. In business and management, decision makers are often concerned with the operating characteristics of a system. One way to measure or assess the operating characteristics of a system is to observe that system in actual operation. However, in many types of situations the cost of direct observation can be very high. Furthermore, changing some of the relationships or parameters within a system on an experimental basis may mean waiting a considerable amount of time to collect results on all the combinations that are of concern to the decision maker.
+
+In business and management, a simulation is a mathematical imitation of a real-world system. The use of computers to conduct simulations is not essential from a theoretical standpoint. However, most simulations are sufficiently complex from a practical standpoint to require the use of computers in running them. A simulation can also be considered to be an experimental process. In a set of experimental runs, the decision maker actively varies some of the parameters or relationships in the system. If the mathematical model behind the simulation is valid, the results of the simulation runs will imitate the results of the real system if it were to operate over some period of time.
+
+In order to better understand the fundamental issues of simulation, an example is useful. Suppose a regional medical center seeks to provide air ambulance service to trauma and burn victims over a wide geographic area. Issues such as how many helicopters would be best and where to place them would be in question. Other issues such as scheduling of flight crews and the speed and payload of various types of helicopters could also be important. These represent decision variables that are to a large degree under the control of the medical center. There are uncontrollable variables in this situation as well. Examples are the weather and the prevailing accident and injury rates throughout the medical center's service region.
+
+Given the random effects of accident frequencies and locations, the analysts for the medical center would want to decide how many helicopters to acquire and where to place them. Adding helicopters and flight crews until the budget is spent is not necessarily the best course of action. Perhaps two strategically placed helicopters would serve the region as efficiently as four helicopters of some other type scattered haphazardly about. Analysts would be interested in such things as operating costs, response times, and expected numbers of patients who would be served. All of these operating characteristics would be impacted by injury rates, weather, and any other uncontrollable factors as well as by the variables they are able to control.
+
+The medical center could run their air ambulance system on a trial-and-error basis for many years before they had any reasonable idea what combinations of resources would work well. Not only might they fail to find the best or near-best combination of controllable variables, but also they might very possibly incur an excessive loss of life as a result of poor resource allocation. For these reasons, this decision-making situation would be an excellent candidate for a simulation approach. Analysts could simulate having any number of helicopters available. To the extent that their model is valid, they could identify the optimal number to have to maximize service, and where they could best be stationed in order to serve the population of seriously injured people who would be distributed about the service region. The fact that accidents can be predicted only statistically means that there would be a strong random component to the service system and that simulation would therefore be an attractive analytical tool in measuring the system's operating characteristics.
+
+What is the point of Simulation?
+
+A question that is often asked is why simulate at all? What benefits does simulation offer society?
+
+To the point, simulations allow for testing and experimentation in a more cost-effective and/or safer environment. Using data gathered from the real world, organisations, companies and individuals can create a virtual testbed to play out ideas without having to waste physical resources or putting people’s lives at risk.
+
+To extend on this, if we wanted to study a system or process, such as a jet engine, a new house, or a vaccine, we have a series of options to choose from:
+
+Experimentation with the real thing: i.e. a real engine, someone’s home, or a human being.
+Experimentation with a model, using either a:
+Physical model, such as a Lego model of a house,
+Mathematical or Digital model such as a simulation of a jet engine or a Digital Twin of the Human body.
+Going by option 2, simulation can allow us to run tests whilst mitigating risk. No actual systems are being tampered with and if the model fails you can start again with no impact beyond the virtual realm.
+
+Another reason for simulation would be the speed and ease of results. At the heart of Slingshot Simulations is the following phrase:
+
+Rapid Prototyping of SMART Systems using Machine Learning and NO Coding
+
+Simulations and Digital Twins bring value rapidly and cost-effectively, which is beneficial for time pressured environments and situations. If we were to present social distancing and crisis models for COVID-19 by 2021, this isn’t helpful and does little to protect people now. The need is now and useful solutions such as simulations offer the opportunity to deliver on these requirements in a timely manner.
+
+SMART Decision Making
+
+This brings us on to what Slingshot believes is one of the most important aspects of simulation: The facilitation of making SMART decisions. Here we deliberately refer to the well understood definition of SMART objectives or criteria:
+
+Specific or Strategic
+Measurable
+Achievable or Attainable
+Relevant, Realistic, or Results-based
+Time-bound or Testable
+Simulation provides a tool for making and testing such decisions that in turn make the results trustworthy, reliable and accurate which is obviously crucial for decision makers. For example, a Digital Twin could be used as either:
+
+A tool to experiment with various potential solutions given appropriate metrics to compare them against.
+A model against which to test the real world for its behaviour, for example to see if a real system is behaving as expected.
